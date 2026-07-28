@@ -1,6 +1,6 @@
 # Message Counter
 
-Message Counter is a Python-based Discord bot that tracks and counts messages sent by users in a Discord server. It also provides basic analytics, such as identifying when messages are most frequently sent.
+Message Counter is a Python‑based analytics bot that transforms Discord activity into structured, long‑term behavioral insights. Refactored with SQLite, it stores timestamped message data in a persistent database, enabling scalable time‑series analysis and multi‑week comparisons. The bot can generate bar graphs, weekly trend visualizations, and percentage‑change statistics. It supports both personal and server‑wide analytics.
 
 ## Installation
 
@@ -39,11 +39,13 @@ The bot logs message activity to a local JSON file. For each message, it records
 
 ## Features
 
-- View weekly message activity trends for yourself or the entire server
-- Track message counts by channel
-- Export message statistics to JSON
-- Generate weekly message activity trend graphs
-- Store timestamped message data for custom analytics
+- Store message data in a SQLite database
+- Query multi‑week activity patterns using fast SQL lookups
+- Generate clustered bar graphs comparing message volume across weeks
+- Calculate weekly percentage changes to show increases or decreases in activity
+- Compare personal vs server‑wide trends
+- Identify peak activity periods
+
 
 ## Notes
 
