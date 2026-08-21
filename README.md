@@ -5,7 +5,7 @@ Message Counter & Trends is a Python‑based analytics bot that transforms Disco
 ## Installation
 
 1. Download or clone the repository.
-2. Set up the bot on a local machine or a hosting service such as **bot-hosting.net**.
+2. Set up the bot on a local machine or a hosting service such as *ot-hosting.net.
 3. Open `main.py` and replace the placeholder value for `BOT_TOKEN` with your Discord bot token.
 4. Install the required dependencies.
 5. Start the bot.
@@ -31,11 +31,11 @@ Generates a weekly message activity trend graph for either:
 
 ## Hosting
 
-The bot is designed to run continuously and is currently hosted on **bot-hosting.net**.
+The bot is designed to run continuously and is currently hosted on bot-hosting.net.
 
 ## Data Collection
 
-The bot logs message activity to a local JSON file. For each message, it records the timestamp, including the date and time. This data can later be analyzed using tools such as **Pandas**, **SQL**, or other analytics frameworks to gain insights into server activity and messaging patterns.
+The bot logs message activity to a local SQLite database file. For each message, it records the timestamp, including the date and time.
 
 ## Features
 
