@@ -31,7 +31,7 @@ Generates a weekly message activity trend graph for either:
 
 ## Hosting
 
-The bot is designed to run continuously and is currently hosted on bot-hosting.net.
+The bot can be hosted locally or using hosting platforms such as bot-hosting.net.
 
 ## Data Collection
 
@@ -43,7 +43,6 @@ The bot logs message activity to a local SQLite database file. For each message,
 - Query multi‑week activity patterns using fast SQL lookups
 - Generate clustered bar graphs comparing message volume across weeks
 - Calculate weekly percentage changes to show increases or decreases in activity
-- Compare personal vs server‑wide trends
 - Identify peak activity periods
 
 
