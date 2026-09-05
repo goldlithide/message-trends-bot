@@ -16,7 +16,7 @@ Run the following commands in a Discord server where the bot is installed.
 
 ### `/getMessageCounts [server_id]`
 
-Collects message counts from the specified server and saves the data to a JSON file for later analysis.
+Collects message counts from the specified server and saves the data to a SQLite file for later analysis.
 
 ### `/msgcounts`
 
