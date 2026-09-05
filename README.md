@@ -22,12 +22,9 @@ Collects message counts from the specified server and saves the data to a JSON f
 
 Displays message counts grouped by channel, allowing users to identify the most active and least active channels in the server.
 
-### `/getTrendGraph me|all`
+### `/getTrendGraph`
 
-Generates a weekly message activity trend graph for either:
-
-- `me` — your personal message activity
-- `all` — the entire server's message activity
+Generates a weekly message activity trend graph.
 
 ## Hosting
 
