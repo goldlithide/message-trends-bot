@@ -1,6 +1,6 @@
 # Message Counter & Trends
 
-Message Counter & Trends is a Python‑based analytics bot that transforms Discord activity into structured, long‑term behavioral insights. Refactored with SQLite, it stores timestamped message data in a persistent database, enabling scalable time‑series analysis and multi‑week comparisons. The bot can generate bar graphs, weekly trend visualizations, and percentage‑change statistics. It supports both personal and server‑wide analytics.
+Message Counter & Trends is a Python‑based analytics bot that transforms Discord activity into structured, long‑term behavioral insights. Refactored with SQLite, it stores timestamped message data in a persistent database, enabling scalable time‑series analysis and multi‑week comparisons. The bot can generate bar graphs, weekly trend visualizations, and percentage‑change statistics. It supports server‑wide analytics.
 
 ## Installation
 
