@@ -5,7 +5,7 @@ Message Counter & Trends is a Python‑based analytics bot that transforms Disco
 ## Installation
 
 1. Download or clone the repository.
-2. Set up the bot on a local machine or a hosting service such as *ot-hosting.net.
+2. Set up the bot on a local machine or a hosting service such as bot-hosting.net.
 3. Open `main.py` and replace the placeholder value for `BOT_TOKEN` with your Discord bot token.
 4. Install the required dependencies.
 5. Start the bot.
