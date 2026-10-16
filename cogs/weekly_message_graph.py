@@ -3,13 +3,12 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 conn = sqlite3.connect("message_log_new_est.db")
-user_id = input("Enter a user ID: ")
-query = "SELECT * FROM message_data WHERE user_id = ?"
-df = pd.read_sql_query(query, conn, params=(user_id,))
+query = "SELECT * FROM message_data"
+df = pd.read_sql_query(query, conn)
 conn.close()
 
 if df.empty:
-    print(f"No messages found for user ID: {user_id}")
+    print(f"No messages found")
 else:
     df["date_sent"] = pd.to_datetime(df["date_sent"])
     df["week_start"] = (
