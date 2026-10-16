@@ -13,7 +13,6 @@ class MessageData:
     time_sent: str
     day_of_week: int
     hour: int
-    user_id: int
         
     @classmethod
     def get_message_data(cls, message):
@@ -23,7 +22,6 @@ class MessageData:
             time_sent=et_time.strftime("%H:%M:%S"),
             day_of_week=et_time.weekday(),
             hour=et_time.hour,
-            user_id = message.author.id
         )
 
 
